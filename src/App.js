@@ -1,11 +1,13 @@
 import React from "react";
+import Form from "./components/forms/form";
+import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>This is our React Form</h1>
+    <div className="container">
+      <h1>Sign Up</h1>
+      <Form/>
     </div>
   );
 }
 
-export default App;
