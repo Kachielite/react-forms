@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 25vw;
+    width: 20%;
     height: 100vh;
-    padding: 10px
+    padding: 10px;
 }
 
 .form-item {
@@ -24,7 +24,10 @@
 .form-item input {
     width: 98%;
     height: 35px;
-    border-raduis: 40px;
+    padding: 3px 6px;
+    border-raduis: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
 }
 
 button {
@@ -32,4 +35,17 @@ button {
     width: 100%;
     height: 45px;
     border-raduis: 40px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    background-color: skyblue;
+    border: none;
+    color: white;
+    font-size: 21px;
+
 }
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 80%;
+    }
+  }
